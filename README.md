@@ -42,7 +42,7 @@ python launcher.py --input_file resources/input.txt
 
 - Code coverage - 83%
 
-<img src="/resources/testcases_snapshot.PNG" alt="Coverage Snapshot" />
+<img src="/resources/coverage_snapshot.PNG" alt="Coverage Snapshot" />
 
 #### Executing tests
 ```python
