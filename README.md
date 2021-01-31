@@ -17,8 +17,9 @@ Design a Parking lot system which can hold `n` Cars. Every car been issued a tic
 2. Parking Service contains the core logic of the implementing the input command requirements.
 
 ## Requirements
-1. Python version 3.7.2
-2. coverage library - ```pip install converage```
+1. Python version 3.7.2 - [Download Reference](https://www.python.org/downloads/release/python-372/)
+2. Set the Path variable to point to the python executable
+3. Install the coverage library ([link](https://coverage.readthedocs.io/en/coverage-5.4/install.html)) using pip - ```pip install converage```
 
 ## Running Application
 ```python
@@ -29,9 +30,19 @@ or
 python launcher.py --input_file input.txt
 ```
 
+Sample:
+```python
+python launcher.py --input_file resources/input.txt
+```
+
 ## Test Cases
 - Total number of test cases - 28
+
+![Test Cases](resources/testcases_snapshot.png)
+
 - Code coverage - 83%
+
+![Coverage](resources/coverage_snapshot.png)
 
 #### Executing tests
 ```python
@@ -41,5 +52,5 @@ python -m unittest
 #### Calculating code coverage
 ```python
 coverage run -m unittest
-coverage report -m --omit='tests/*'
+coverage report -m --omit='tests/*,*/__init__.py'
 ```
