@@ -38,11 +38,11 @@ python launcher.py --input_file resources/input.txt
 ## Test Cases
 - Total number of test cases - 28
 
-![Test Cases](resources/testcases_snapshot.png)
+<img src="/resources/testcases_snapshot.PNG" alt="Test Cases Snapshot" />
 
 - Code coverage - 83%
 
-![Coverage](resources/coverage_snapshot.png)
+<img src="/resources/testcases_snapshot.PNG" alt="Coverage Snapshot" />
 
 #### Executing tests
 ```python
